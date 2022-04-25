@@ -1,9 +1,11 @@
 package br.com.my.investment.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDate;
 
+@Builder
 @Data
 public class Transaction {
 
